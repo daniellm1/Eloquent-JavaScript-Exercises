@@ -14,6 +14,7 @@ const reverseArrayInPlace = (arr) => {
         arr[i] = arr[lastIndex - i];
         arr[lastIndex - i] = arrBinding;
     }
+    return arr;
 }
 
 console.log(reverseArray(["A", "B", "C"]));
